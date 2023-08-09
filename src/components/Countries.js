@@ -20,7 +20,7 @@ const Countries = ({ country }) => {
 
 export default Countries;
 
-Countries.PropTypes = {
+Countries.propTypes = {
   country: PropTypes.shape({
     officialName: PropTypes.string.isRequired,
     flag: PropTypes.string.isRequired,
