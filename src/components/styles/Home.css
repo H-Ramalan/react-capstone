@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.countries-box {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.country-box {
+  background: rgb(228, 130, 130);
+}
+
+.countries {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.countries:nth-child(odd) {
+  background-color: brown;
+}
+
+.countries:nth-child(even) {
+  background-color: rgb(228, 130, 130);
+}
+
+.country {
+  display: flex;
+  justify-content: center;
+}
+
+.search-bar {
+  padding: 15px;
+  border-radius: 5px;
+  border: none;
+  margin: 15px 0;
+  width: 30%;
+}
+
+.country-name {
+  margin-top: 15px;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+}
