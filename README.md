@@ -61,7 +61,7 @@ The project provides a user-friendly interface for users to search, sort, and vi
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://explore-the-countries.onrender.com/)
+- [Live Demo Link](https://countries-app-8yrg.onrender.com)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
