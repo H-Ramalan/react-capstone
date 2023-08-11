@@ -6,7 +6,7 @@ import { fetchCountry } from '../Redux/Countries/CountriesSlice';
 import './styles/Details.css';
 
 const Details = () => {
-  const country = useSelector((state) => state.countries.country);
+  const country = useSelector((state) => state.countries?.country);
   const navigate = useNavigate();
   const params = useParams();
   const dispatch = useDispatch();

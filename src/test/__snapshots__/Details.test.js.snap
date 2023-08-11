@@ -1,0 +1,79 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Details Component renders correctly 1`] = `
+<DocumentFragment>
+  <div
+    class="details-box"
+  >
+    <div
+      class="back-btn"
+    >
+      <button
+        class="back"
+        type="button"
+      >
+        <svg
+          fill="none"
+          height="1em"
+          stroke="currentColor"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="2"
+          viewBox="0 0 24 24"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <line
+            x1="19"
+            x2="5"
+            y1="12"
+            y2="12"
+          />
+          <polyline
+            points="12 19 5 12 12 5"
+          />
+        </svg>
+        Back
+      </button>
+    </div>
+    <div
+      class="arm-name"
+    >
+      <img
+        alt="coat"
+        class="coat-of-arm"
+      />
+      <h1
+        class="name"
+      />
+    </div>
+    <div
+      class="details"
+    >
+      <ul>
+        <li>
+          Continent:
+        </li>
+        <li>
+          Capital:
+        </li>
+        <li>
+          Population:
+        </li>
+        <li>
+          Land Area:
+        </li>
+        <li>
+          Timezone:
+        </li>
+        <li>
+          Landlocked:undefined
+        </li>
+        <li>
+          Independent:undefined
+        </li>
+      </ul>
+    </div>
+  </div>
+</DocumentFragment>
+`;

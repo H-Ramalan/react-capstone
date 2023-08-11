@@ -6,7 +6,7 @@
 
 .countries-box {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
 }
 
 .country-box {
@@ -14,19 +14,22 @@
 }
 
 .countries {
-  align-items: center;
+  align-items: stretch;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  background-color: brown;
+  border: 1px solid white;
+  margin: 10px;
 }
 
-.countries:nth-child(odd) {
+/* .countries:nth-child(even) {
   background-color: brown;
 }
 
-.countries:nth-child(even) {
+.countries:nth-child(odd) {
   background-color: rgb(228, 130, 130);
-}
+} */
 
 .country {
   display: flex;
@@ -43,7 +46,8 @@
 
 .country-name {
   margin-top: 15px;
-  text-align: center;
+  text-align: end;
   text-decoration: none;
   color: white;
+  font-size: 20px;
 }

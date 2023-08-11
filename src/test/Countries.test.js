@@ -8,6 +8,7 @@ describe('Countries Component', () => {
   const mockCountry = {
     officialName: 'Test Country',
     flag: 'test-flag-url',
+    population: 1235458,
   };
 
   it('should render country name and flag', () => {

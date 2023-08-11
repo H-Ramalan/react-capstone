@@ -7,3 +7,25 @@
 .link {
   text-decoration: none;
 }
+
+.arrow {
+  width: 7%;
+  height: 10%;
+  color: white;
+}
+
+.flag {
+  display: flex;
+  justify-content: space-between;
+}
+
+.flag-pic {
+  width: 60%;
+  height: 25%;
+}
+
+.people {
+  text-align: end;
+  color: white;
+  font-size: 18px;
+}

@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Navbar Component matches snapshot 1`] = `
+<DocumentFragment>
+  <nav>
+  
+    
+    <h1>
+      Countries!
+    </h1>
+    
+     
+       
+    
+  </nav>
+</DocumentFragment>
+`;
