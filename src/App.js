@@ -1,16 +1,15 @@
 import { Route, Routes } from 'react-router-dom';
-import Countries from './components/Countries';
 import Details from './components/Details';
 import Nav from './components/Nav';
+import Home from './components/Home';
 
 const App = () => (
   <>
     <Nav />
     <Routes>
-      <Route element={<Countries />} />
-      <Route path="/details" element={<Details />} />
+      <Route path="/" element={<Home />} />
+      <Route path="/details/:country" element={<Details />} />
     </Routes>
-    <Countries />
   </>
 );
 

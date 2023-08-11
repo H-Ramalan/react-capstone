@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.nav {
+  height: 12vh;
+  background-color: brown;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.globe {
+  height: 45px;
+  width: 55px;
+}
+
+.settings {
+  height: 45px;
+  width: 55px;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  font-size: 30px;
+}
