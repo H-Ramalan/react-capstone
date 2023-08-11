@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.countries-box {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.country-box {
+  background: rgb(228, 130, 130);
+}
+
+.countries {
+  align-items: stretch;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: brown;
+  border: 2px solid white;
+  margin: 10px;
+}
+
+.country {
+  display: flex;
+  justify-content: center;
+}
+
+.search-bar {
+  padding: 15px;
+  border-radius: 5px;
+  border: none;
+  margin: 15px 0;
+  width: 30%;
+}
+
+.country-name {
+  margin-top: 15px;
+  text-align: end;
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
