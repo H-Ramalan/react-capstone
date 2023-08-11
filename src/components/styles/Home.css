@@ -19,17 +19,9 @@
   flex-direction: column;
   justify-content: center;
   background-color: brown;
-  border: 1px solid white;
+  border: 2px solid white;
   margin: 10px;
 }
-
-/* .countries:nth-child(even) {
-  background-color: brown;
-}
-
-.countries:nth-child(odd) {
-  background-color: rgb(228, 130, 130);
-} */
 
 .country {
   display: flex;
