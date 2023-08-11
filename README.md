@@ -69,7 +69,7 @@ The project provides a user-friendly interface for users to search, sort, and vi
 
 ## Presentation <a name="presentation"></a>
 
-- [Presentation Link ]('https://www.loom.com/share/2270bdd5dac040d7abfe889e525fabd2')
+- [Presentation Link ](https://www.loom.com/share/2270bdd5dac040d7abfe889e525fabd2)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
